@@ -1,0 +1,113 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: one;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
+body {
+     background: url('../notebook.png'); /* add a fallback color of #d6d6d6 */
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+     width: 1000px;
+     margin: 0 auto 0 auto;
+    }  
+    .con{
+        margin-left: 20%;
+    }
+   
+    .container{
+     width: 600px;
+     margin: 0 ;
+     
+   }
+ #container1{
+     width: 350px;
+     height: 950px;
+     
+     background-color: white;
+      
+     padding-left: 30px;
+     
+     float:left;
+     
+    }
+    .sidebar{
+     background-color: white;
+     width: 230px;
+     margin-left: 10px;
+    
+     padding-bottom: 2%;
+     float: left;
+    }
+    .raw{
+        
+        font-size: large;
+        
+    }
+    .logo{
+     width: 300px;
+    }
+   
+ 
+   
+    .yadav{
+          padding-left:7px;
+          width: 100px;
+          height: 70%;
+          margin-left: 50px;
+          border-radius: 80%;
+          margin-top: 30px;
+        
+          
+    }
+    p{
+     font-size: 60%;
+    }
+    .ha{
+     
+     margin-right: 18px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: red;
+    }
+    .ram{
+        color:silver;
+    }
+    .line{
+        
+        border-left: 2px solid silver;
+        margin-left: 50px;
+        height: 48px;
+        
+    }
+   
